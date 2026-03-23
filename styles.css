@@ -1389,7 +1389,7 @@ MOBILE RESPONSIVENESS
     }
 }
 
-@media {max-width: 640px} {
+@media (max-width: 640px) {
     .testimonial__buttons {
         margin-top:  32px;
     }
