@@ -1437,3 +1437,43 @@ MOBILE RESPONSIVENESS
         line-height: 1.5;
     }
 }
+
+@media (max-width: 1024px) {
+    h1 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 1280px) {
+    h1 {
+      font-size: 36px;  
+      color: #1a202c;
+      line-height: 1.25;
+    }
+}
+
+@media (max-width: 640px) {
+    #features .section__title, #pricing .section__title {
+        font-size: 36px;
+    }
+}
+
+@media (max-width: 1024px) {
+    #features .section__title, #pricing .section__title {
+        font-size: 48px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .start__row {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 640px) {
+    .testimonial__bottom {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 4px;
+    }
+}
