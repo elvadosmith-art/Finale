@@ -1234,6 +1234,13 @@ MOBILE RESPONSIVENESS
 }
 
 @media (max-width: 640px) {
+    .footer__column {
+        width: auto;
+        padding: 0 16px;
+        text-align: center;
+        align-items: center;
+    }
+
     .footer__columns {
         justify-content: center;
     }
