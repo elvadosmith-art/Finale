@@ -882,6 +882,7 @@ TESTIMONIALS
 .testimonial__profile, .testimonial__buttons {
     display: flex;
     align-items: center;
+    position: relative;
 }
 
 .testimonial__button {
@@ -898,6 +899,7 @@ TESTIMONIALS
 .testimonial__button svg {
     width: 16px;
     height: 16px;
+    justify-content: center;
 }
 
 .divider {
@@ -1415,12 +1417,14 @@ MOBILE RESPONSIVENESS
 @media (max-width:640px) {
     .start__button:nth-child(1) {
         margin-right: 0;
+        justify-content: center;
     }
 }
 
 @media(max-width: 640px) {
 .start__button:nth-child(2) {
     margin-top: 16px;
+    justify-content: center;
     }  
 }
 
@@ -1428,6 +1432,7 @@ MOBILE RESPONSIVENESS
     .start__button {
         padding: 12px 24px;
         font-size: 14px;
+        justify-content: center;
     }
 }
 
@@ -1455,6 +1460,10 @@ MOBILE RESPONSIVENESS
     #features .section__title, #pricing .section__title {
         font-size: 36px;
     }
+    #features .row__narrow {
+        display: column;
+        align-items: center;
+    }
 }
 
 @media (max-width: 1024px) {
@@ -1474,5 +1483,6 @@ MOBILE RESPONSIVENESS
         flex-direction: column;
         align-items: center;
         padding-top: 4px;
+        max-width: fit-content;
     }
 }
