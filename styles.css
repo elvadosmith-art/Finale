@@ -1389,6 +1389,7 @@ MOBILE RESPONSIVENESS
     .step {
         flex-direction: column;
         align-items: center;
+        margin-top: 32px;
     }
 }
 
@@ -1584,5 +1585,17 @@ MOBILE RESPONSIVENESS
 @media (max-width: 1024px) {
     .feature__para {
         max-width: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav__link {
+        display: none;
+    }
+    .features {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
     }
 }
