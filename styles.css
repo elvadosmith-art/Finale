@@ -454,6 +454,7 @@ STEPS
 .step {
     display: flex;
     align-items: flex-start;
+    margin-top: 32px;
 }
 
 .steps__img--wrapper {
@@ -1176,9 +1177,20 @@ MOBILE RESPONSIVENESS
     }
 }
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
     .step {
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 32px;
+        margin-bottom: 16px;
+    }
+}
+
+@media (max-width: 640px){
+    .step {
+        flex-direction: column;
+        justify-content: center;
         align-items: center;
         margin-bottom: 32px;
     }
@@ -1489,6 +1501,20 @@ MOBILE RESPONSIVENESS
 }
 
 @media (max-width: 640px) {
+    .steps__list {
+        margin-top: 48px;
+    }
+}
+
+@media (max-width: 640px) {
+    .step__number, .step__title {
+        justify-content: center;
+        align-content: center;
+        margin-bottom: 8px;
+    }
+}
+
+@media (max-width: 640px) {
     .start__button {
         padding: 12px 24px;
         font-size: 14px;
@@ -1599,4 +1625,11 @@ MOBILE RESPONSIVENESS
         display: flex;
         flex-direction: column;
     }
+}
+
+@media (max-width: 768px) {
+    .step__description {
+        margin-top: 12px;
+        margin-left: 0;
+    }    
 }
