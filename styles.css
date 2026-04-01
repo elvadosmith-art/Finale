@@ -1379,6 +1379,7 @@ MOBILE RESPONSIVENESS
 
 @media (max-width: 768px) {
     .btn__menu {
+        display: hidden;
         display: none;
     }
     header .row {
@@ -1387,6 +1388,12 @@ MOBILE RESPONSIVENESS
     }
     footer {
         padding: 80px 32px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .btn__menu {
+        display: block;
     }
 }
 
