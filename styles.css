@@ -547,13 +547,6 @@ PLANS
     box-shadow:  rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;;
 }
 
-.plan__b {
-    background-color: silver;
-}
-
-.plan__c {
-    background-color: gold;
-}
 
 .plan__stripe {
     position: absolute;
@@ -662,9 +655,9 @@ PLANS
     color: #1a202c;
 }
 
-.plan:nth-child(1) .plan__middle, .plan:nth-child(3) .plan__middle, .plan:nth-child(2) .plan__middle {
-    border-top: 2px solid rgb(229, 231, 235);
-    border-bottom: 2px solid rgb(229, 231, 235);
+.plan:nth-child(1) .plan__middle, .plan:nth-child(3) .plan__middle {
+    border-top: 2px solid rgb(14, 219, 219);
+    border-bottom: 2px solid rgb(14, 219, 219);
 }
 
 .plan:nth-child(1) .plan__stripe, .plan:nth-child(1) .plan__button {
@@ -674,6 +667,8 @@ PLANS
 
 .plan:nth-child(2) {
     background: linear-gradient(135deg, rgb(76, 81, 191) 0% rgb(102, 126, 234)100%);
+    background-color: rgba(234, 156, 32, 0.726);
+    border: 2px solid rgb(2,2,2, 0.8);
 }
 
 
@@ -1363,9 +1358,9 @@ MOBILE RESPONSIVENESS
     }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
     .btn__menu {
-        display: block;
+        display: none;
     }
     header .row {
         flex-direction: column;
