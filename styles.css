@@ -665,7 +665,7 @@ PLANS
     border: 2px solid rgb(2,2,2, 0.8);
 }
 
->.plan:nth--child(2) .plan__feature {
+.plan:nth--child(2) .plan__feature {
     margin-top: 20px;
     margin-bottom: 500;
     color: #1a202c;
