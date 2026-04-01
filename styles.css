@@ -547,6 +547,14 @@ PLANS
     box-shadow:  rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;;
 }
 
+.plan__b {
+    background-color: silver;
+}
+
+.plan__c {
+    background-color: gold;
+}
+
 .plan__stripe {
     position: absolute;
     left: 0px;
@@ -1242,7 +1250,7 @@ MOBILE RESPONSIVENESS
         width: calc(100% / 3);
     }   
     .nav__links {
-        display: none;
+        display: hidden;
     }
 }
 @media (max_width: 640px) {
@@ -1632,4 +1640,13 @@ MOBILE RESPONSIVENESS
         margin-top: 12px;
         margin-left: 0;
     }    
+}
+
+@media (max-width: 480px) {
+    .features {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
 }
