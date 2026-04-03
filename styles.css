@@ -681,9 +681,13 @@ PLANS
     color: #1a202c;
 }
 
-.plan:nth-child(1) .plan__middle {
+.plan:nth-child(1):nth-child(1) .plan__middle {
     border-top: 2px dotted rgba(14, 219, 219);
     border-bottom: 2px dotted rgba(14, 219, 219);
+}
+
+.plan:nth-child(1):nth-child(1) .plan {
+    border-color: 2px dotted rgba(14, 219, 219, 0.548);
 }
 
 .plan:nth-child(3) .plan__middle {
@@ -692,7 +696,7 @@ PLANS
 }
 
 .plan:nth-child(1) .plan__stripe, .plan:nth-child(1) .plan__button {
-    color: #f7fafc;
+    color: .pla#f7fafc;
     background: linear-gradient(115deg, rgb(56, 178, 172) 0% rgb(129, 230, 217) 100%);
 }
 
