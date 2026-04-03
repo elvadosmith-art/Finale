@@ -686,7 +686,7 @@ PLANS
     border-bottom: 2px dotted rgba(14, 219, 219);
 }
 
-.plan:nth-child(1):nth-child(1) .plan {
+.plan:nth-child(1) .plan {
     border-color: 2px dotted rgba(14, 219, 219, 0.548);
 }
 
