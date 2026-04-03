@@ -190,6 +190,7 @@ LANDING
     padding-bottom: 4px;
 }
 
+
 .nav__logo--img {
     height: 40px;
     width: 40px;
@@ -699,9 +700,8 @@ PLANS
 
 .plan:nth-child(2) .plan__middle {
     background-color: rgba(32, 49, 235, 0.548);
-    border: 2px transparent rgba(32, 49, 235, 0.548);
-    border-radius: 0.25rem;
-    padding: 0.75rem 2rem;
+    border: 2px solid rgba(32, 49, 235, 0.548);
+    border-radius: 0.5rem;
 }
 
 .plan:nth-child(2) .plan__feature {
