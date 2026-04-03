@@ -686,7 +686,7 @@ PLANS
     border-bottom: 2px dotted rgba(14, 219, 219);
 }
 
-.plan:nth-child(1) .plan {
+.plan:nth-child(1) .plan__stripe {
     border-left: 2px dotted rgba(14, 219, 219, 0.548);
     border-right: 2px dotted rgba(14, 219, 219, 0.548);
 }
@@ -697,7 +697,7 @@ PLANS
 }
 
 .plan:nth-child(1) .plan__stripe, .plan:nth-child(1) .plan__button {
-    color: .pla#f7fafc;
+    color: #f7fafc;
     background: linear-gradient(115deg, rgb(56, 178, 172) 0% rgb(129, 230, 217) 100%);
 }
 
